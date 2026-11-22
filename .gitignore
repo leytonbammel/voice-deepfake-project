@@ -1,0 +1,32 @@
+# Python / environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.env
+.env.*
+
+# Model weights and caches (downloaded at runtime)
+pretrained_models/
+*.ckpt
+*.pth
+*.pt
+*.bin
+*.safetensors
+
+# Audio and biometric data: never commit
+data/
+*.wav
+*.flac
+*.mp3
+*.m4a
+*.ogg
+*.webm
+enrollments/
+consent_forms/
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
